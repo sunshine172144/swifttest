@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D5124C825EAA8AA00A19940 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5124C725EAA8AA00A19940 /* AppDelegate.swift */; };
+		1D5124CA25EAA8AA00A19940 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5124C925EAA8AA00A19940 /* SceneDelegate.swift */; };
+		1D5124CC25EAA8AA00A19940 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5124CB25EAA8AA00A19940 /* ViewController.swift */; };
+		1D5124CF25EAA8AA00A19940 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D5124CD25EAA8AA00A19940 /* Main.storyboard */; };
+		1D5124D125EAA8AB00A19940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D5124D025EAA8AB00A19940 /* Assets.xcassets */; };
+		1D5124D425EAA8AB00A19940 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D5124D225EAA8AB00A19940 /* LaunchScreen.storyboard */; };
+		1D5124DF25EAA8AB00A19940 /* BGShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5124DE25EAA8AB00A19940 /* BGShopTests.swift */; };
+		1D5124EA25EAA8AB00A19940 /* BGShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5124E925EAA8AB00A19940 /* BGShopUITests.swift */; };
+		1D53486825EB366C002C3ED2 /* ImageAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D53486725EB366C002C3ED2 /* ImageAsset.swift */; };
+		1D53488525EB4013002C3ED2 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D53488425EB4013002C3ED2 /* Colors.swift */; };
+		1D53488D25EB43DF002C3ED2 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D53488C25EB43DF002C3ED2 /* Fonts.swift */; };
+		1D53489A25EB463B002C3ED2 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D53489925EB463B002C3ED2 /* Strings.swift */; };
+		1D5348A325EB4703002C3ED2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D5348A525EB4703002C3ED2 /* InfoPlist.strings */; };
+		1D5348B225EB49AA002C3ED2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D5348B425EB49AA002C3ED2 /* Localizable.strings */; };
+		1D5348BD25EB8A0C002C3ED2 /* LocalizationTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5348BC25EB8A0C002C3ED2 /* LocalizationTool.swift */; };
+		1D5348C325EB9426002C3ED2 /* LanguageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5348C225EB9426002C3ED2 /* LanguageHelper.swift */; };
+		1D5C1BF125EBBD9C009225EA /* HomeViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5C1BF025EBBD9C009225EA /* HomeViewcontroller.swift */; };
+		1D5C1BF625EBBDF3009225EA /* SetViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5C1BF525EBBDF3009225EA /* SetViewcontroller.swift */; };
+		1D5C1BFB25EBBE01009225EA /* ServiceViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5C1BFA25EBBE01009225EA /* ServiceViewcontroller.swift */; };
+		1D5C1C0C25EBC8CA009225EA /* ShopViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5C1C0B25EBC8CA009225EA /* ShopViewcontroller.swift */; };
+		1D5C1C1125EBC91D009225EA /* CustomLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5C1C1025EBC91D009225EA /* CustomLayout.swift */; };
+		1D5C1C1625EBCA36009225EA /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 1D5C1C1525EBCA36009225EA /* Images */; };
+		B8D85ACF056B945E239DE0B9 /* Pods_BGShop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCD3574CF22D3BF28289CAC5 /* Pods_BGShop.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D5124DB25EAA8AB00A19940 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D5124BC25EAA8AA00A19940 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D5124C325EAA8AA00A19940;
+			remoteInfo = BGShop;
+		};
+		1D5124E625EAA8AB00A19940 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D5124BC25EAA8AA00A19940 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D5124C325EAA8AA00A19940;
+			remoteInfo = BGShop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		106DB151C163371BE6A591EB /* Pods-BGShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BGShop.release.xcconfig"; path = "Target Support Files/Pods-BGShop/Pods-BGShop.release.xcconfig"; sourceTree = "<group>"; };
+		1D5124C425EAA8AA00A19940 /* BGShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BGShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D5124C725EAA8AA00A19940 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D5124C925EAA8AA00A19940 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1D5124CB25EAA8AA00A19940 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1D5124CE25EAA8AA00A19940 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D5124D025EAA8AB00A19940 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D5124D325EAA8AB00A19940 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D5124D525EAA8AB00A19940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D5124DA25EAA8AB00A19940 /* BGShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BGShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D5124DE25EAA8AB00A19940 /* BGShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BGShopTests.swift; sourceTree = "<group>"; };
+		1D5124E025EAA8AB00A19940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D5124E525EAA8AB00A19940 /* BGShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BGShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D5124E925EAA8AB00A19940 /* BGShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BGShopUITests.swift; sourceTree = "<group>"; };
+		1D5124EB25EAA8AB00A19940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D53486725EB366C002C3ED2 /* ImageAsset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageAsset.swift; path = ImageCode/ImageAsset.swift; sourceTree = "<group>"; };
+		1D53488425EB4013002C3ED2 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Colors.swift; path = ColorCode/Colors.swift; sourceTree = "<group>"; };
+		1D53488C25EB43DF002C3ED2 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Fonts.swift; path = FontCode/Fonts.swift; sourceTree = "<group>"; };
+		1D53489125EB4545002C3ED2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		1D53489225EB4545002C3ED2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		1D53489925EB463B002C3ED2 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		1D5348A425EB4703002C3ED2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1D5348A925EB4718002C3ED2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		1D5348B325EB49AA002C3ED2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1D5348B825EB49B3002C3ED2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		1D5348BC25EB8A0C002C3ED2 /* LocalizationTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationTool.swift; sourceTree = "<group>"; };
+		1D5348C225EB9426002C3ED2 /* LanguageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageHelper.swift; sourceTree = "<group>"; };
+		1D5C1BF025EBBD9C009225EA /* HomeViewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewcontroller.swift; sourceTree = "<group>"; };
+		1D5C1BF525EBBDF3009225EA /* SetViewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetViewcontroller.swift; sourceTree = "<group>"; };
+		1D5C1BFA25EBBE01009225EA /* ServiceViewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewcontroller.swift; sourceTree = "<group>"; };
+		1D5C1C0B25EBC8CA009225EA /* ShopViewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewcontroller.swift; sourceTree = "<group>"; };
+		1D5C1C1025EBC91D009225EA /* CustomLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLayout.swift; sourceTree = "<group>"; };
+		1D5C1C1525EBCA36009225EA /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		93A66BE81395A98E2CBCA027 /* Pods-BGShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BGShop.debug.xcconfig"; path = "Target Support Files/Pods-BGShop/Pods-BGShop.debug.xcconfig"; sourceTree = "<group>"; };
+		BCD3574CF22D3BF28289CAC5 /* Pods_BGShop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BGShop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D5124C125EAA8AA00A19940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8D85ACF056B945E239DE0B9 /* Pods_BGShop.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D5124D725EAA8AB00A19940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D5124E225EAA8AB00A19940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1824A6C8604680CC6388DCC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCD3574CF22D3BF28289CAC5 /* Pods_BGShop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D5124BB25EAA8AA00A19940 = {
+			isa = PBXGroup;
+			children = (
+				1D5124C625EAA8AA00A19940 /* BGShop */,
+				1D5124DD25EAA8AB00A19940 /* BGShopTests */,
+				1D5124E825EAA8AB00A19940 /* BGShopUITests */,
+				1D5124C525EAA8AA00A19940 /* Products */,
+				CB07C93901E4F501DD6F326B /* Pods */,
+				1824A6C8604680CC6388DCC9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1D5124C525EAA8AA00A19940 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D5124C425EAA8AA00A19940 /* BGShop.app */,
+				1D5124DA25EAA8AB00A19940 /* BGShopTests.xctest */,
+				1D5124E525EAA8AB00A19940 /* BGShopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D5124C625EAA8AA00A19940 /* BGShop */ = {
+			isa = PBXGroup;
+			children = (
+				1D5C1C1525EBCA36009225EA /* Images */,
+				1D5348A525EB4703002C3ED2 /* InfoPlist.strings */,
+				1D53489925EB463B002C3ED2 /* Strings.swift */,
+				1D53488C25EB43DF002C3ED2 /* Fonts.swift */,
+				1D53488425EB4013002C3ED2 /* Colors.swift */,
+				1D53486725EB366C002C3ED2 /* ImageAsset.swift */,
+				1D5124C725EAA8AA00A19940 /* AppDelegate.swift */,
+				1D5124C925EAA8AA00A19940 /* SceneDelegate.swift */,
+				1D5124CB25EAA8AA00A19940 /* ViewController.swift */,
+				1D5124CD25EAA8AA00A19940 /* Main.storyboard */,
+				1D5124D025EAA8AB00A19940 /* Assets.xcassets */,
+				1D5124D225EAA8AB00A19940 /* LaunchScreen.storyboard */,
+				1D5124D525EAA8AB00A19940 /* Info.plist */,
+				1D5348B425EB49AA002C3ED2 /* Localizable.strings */,
+				1D5348BC25EB8A0C002C3ED2 /* LocalizationTool.swift */,
+				1D5348C225EB9426002C3ED2 /* LanguageHelper.swift */,
+				1D5C1BF025EBBD9C009225EA /* HomeViewcontroller.swift */,
+				1D5C1BF525EBBDF3009225EA /* SetViewcontroller.swift */,
+				1D5C1BFA25EBBE01009225EA /* ServiceViewcontroller.swift */,
+				1D5C1C0B25EBC8CA009225EA /* ShopViewcontroller.swift */,
+				1D5C1C1025EBC91D009225EA /* CustomLayout.swift */,
+			);
+			path = BGShop;
+			sourceTree = "<group>";
+		};
+		1D5124DD25EAA8AB00A19940 /* BGShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D5124DE25EAA8AB00A19940 /* BGShopTests.swift */,
+				1D5124E025EAA8AB00A19940 /* Info.plist */,
+			);
+			path = BGShopTests;
+			sourceTree = "<group>";
+		};
+		1D5124E825EAA8AB00A19940 /* BGShopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1D5124E925EAA8AB00A19940 /* BGShopUITests.swift */,
+				1D5124EB25EAA8AB00A19940 /* Info.plist */,
+			);
+			path = BGShopUITests;
+			sourceTree = "<group>";
+		};
+		CB07C93901E4F501DD6F326B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93A66BE81395A98E2CBCA027 /* Pods-BGShop.debug.xcconfig */,
+				106DB151C163371BE6A591EB /* Pods-BGShop.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D5124C325EAA8AA00A19940 /* BGShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D5124EE25EAA8AB00A19940 /* Build configuration list for PBXNativeTarget "BGShop" */;
+			buildPhases = (
+				6C498A6A9388E69096F4089E /* [CP] Check Pods Manifest.lock */,
+				1D5124C025EAA8AA00A19940 /* Sources */,
+				1D5124C125EAA8AA00A19940 /* Frameworks */,
+				1D5124C225EAA8AA00A19940 /* Resources */,
+				2C67041AAF675C8F8C581E3A /* [CP] Embed Pods Frameworks */,
+				1D53484E25EB3321002C3ED2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BGShop;
+			productName = BGShop;
+			productReference = 1D5124C425EAA8AA00A19940 /* BGShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D5124D925EAA8AB00A19940 /* BGShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D5124F125EAA8AB00A19940 /* Build configuration list for PBXNativeTarget "BGShopTests" */;
+			buildPhases = (
+				1D5124D625EAA8AB00A19940 /* Sources */,
+				1D5124D725EAA8AB00A19940 /* Frameworks */,
+				1D5124D825EAA8AB00A19940 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D5124DC25EAA8AB00A19940 /* PBXTargetDependency */,
+			);
+			name = BGShopTests;
+			productName = BGShopTests;
+			productReference = 1D5124DA25EAA8AB00A19940 /* BGShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1D5124E425EAA8AB00A19940 /* BGShopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D5124F425EAA8AB00A19940 /* Build configuration list for PBXNativeTarget "BGShopUITests" */;
+			buildPhases = (
+				1D5124E125EAA8AB00A19940 /* Sources */,
+				1D5124E225EAA8AB00A19940 /* Frameworks */,
+				1D5124E325EAA8AB00A19940 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D5124E725EAA8AB00A19940 /* PBXTargetDependency */,
+			);
+			name = BGShopUITests;
+			productName = BGShopUITests;
+			productReference = 1D5124E525EAA8AB00A19940 /* BGShopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D5124BC25EAA8AA00A19940 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					1D5124C325EAA8AA00A19940 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					1D5124D925EAA8AB00A19940 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1D5124C325EAA8AA00A19940;
+					};
+					1D5124E425EAA8AB00A19940 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1D5124C325EAA8AA00A19940;
+					};
+				};
+			};
+			buildConfigurationList = 1D5124BF25EAA8AA00A19940 /* Build configuration list for PBXProject "BGShop" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 1D5124BB25EAA8AA00A19940;
+			productRefGroup = 1D5124C525EAA8AA00A19940 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D5124C325EAA8AA00A19940 /* BGShop */,
+				1D5124D925EAA8AB00A19940 /* BGShopTests */,
+				1D5124E425EAA8AB00A19940 /* BGShopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D5124C225EAA8AA00A19940 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D5348B225EB49AA002C3ED2 /* Localizable.strings in Resources */,
+				1D5124D425EAA8AB00A19940 /* LaunchScreen.storyboard in Resources */,
+				1D5348A325EB4703002C3ED2 /* InfoPlist.strings in Resources */,
+				1D5124D125EAA8AB00A19940 /* Assets.xcassets in Resources */,
+				1D5C1C1625EBCA36009225EA /* Images in Resources */,
+				1D5124CF25EAA8AA00A19940 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D5124D825EAA8AB00A19940 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D5124E325EAA8AB00A19940 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D53484E25EB3321002C3ED2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif [[ -f \"${PODS_ROOT}/SwiftGen/bin/swiftgen\" ]]; then\n  \"${PODS_ROOT}/SwiftGen/bin/swiftgen\" xcassets -t swift5 \"$PROJECT_DIR/BGShop/Assets.xcassets\" --output \"$PROJECT_DIR/BGShop/ImageCode/ImageAsset.swift\"\n  \"${PODS_ROOT}/SwiftGen/bin/swiftgen\" colors -t swift5 \"$PROJECT_DIR/BGShop/ColorCode/colors.txt\" --output \"$PROJECT_DIR/BGShop/ColorCode/Colors.swift\"\n  \"${PODS_ROOT}/SwiftGen/bin/swiftgen\" fonts -t swift5 \"$PROJECT_DIR/BGShop/FontCode/fonts\" --output \"$PROJECT_DIR/BGShop/FontCode/Fonts.swift\"\n  \"${PODS_ROOT}/SwiftGen/bin/swiftgen\" strings -t flat-swift5 \"$PROJECT_DIR/BGShop/zh-Hans.lproj\" --output \"$PROJECT_DIR/BGShop/Strings.swift\"\nelse\n  echo \"warning: SwiftGen is not installed. Run 'pod install --repo-update' to install it.\"\nfi\n";
+		};
+		2C67041AAF675C8F8C581E3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BGShop/Pods-BGShop-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BGShop/Pods-BGShop-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BGShop/Pods-BGShop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C498A6A9388E69096F4089E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BGShop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D5124C025EAA8AA00A19940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D5348BD25EB8A0C002C3ED2 /* LocalizationTool.swift in Sources */,
+				1D5124CC25EAA8AA00A19940 /* ViewController.swift in Sources */,
+				1D53488525EB4013002C3ED2 /* Colors.swift in Sources */,
+				1D5124C825EAA8AA00A19940 /* AppDelegate.swift in Sources */,
+				1D5348C325EB9426002C3ED2 /* LanguageHelper.swift in Sources */,
+				1D53486825EB366C002C3ED2 /* ImageAsset.swift in Sources */,
+				1D53488D25EB43DF002C3ED2 /* Fonts.swift in Sources */,
+				1D5C1C0C25EBC8CA009225EA /* ShopViewcontroller.swift in Sources */,
+				1D5C1C1125EBC91D009225EA /* CustomLayout.swift in Sources */,
+				1D5C1BF125EBBD9C009225EA /* HomeViewcontroller.swift in Sources */,
+				1D5124CA25EAA8AA00A19940 /* SceneDelegate.swift in Sources */,
+				1D53489A25EB463B002C3ED2 /* Strings.swift in Sources */,
+				1D5C1BFB25EBBE01009225EA /* ServiceViewcontroller.swift in Sources */,
+				1D5C1BF625EBBDF3009225EA /* SetViewcontroller.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D5124D625EAA8AB00A19940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D5124DF25EAA8AB00A19940 /* BGShopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D5124E125EAA8AB00A19940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D5124EA25EAA8AB00A19940 /* BGShopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D5124DC25EAA8AB00A19940 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D5124C325EAA8AA00A19940 /* BGShop */;
+			targetProxy = 1D5124DB25EAA8AB00A19940 /* PBXContainerItemProxy */;
+		};
+		1D5124E725EAA8AB00A19940 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D5124C325EAA8AA00A19940 /* BGShop */;
+			targetProxy = 1D5124E625EAA8AB00A19940 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D5124CD25EAA8AA00A19940 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D5124CE25EAA8AA00A19940 /* Base */,
+				1D53489125EB4545002C3ED2 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D5124D225EAA8AB00A19940 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D5124D325EAA8AB00A19940 /* Base */,
+				1D53489225EB4545002C3ED2 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1D5348A525EB4703002C3ED2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D5348A425EB4703002C3ED2 /* en */,
+				1D5348A925EB4718002C3ED2 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1D5348B425EB49AA002C3ED2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D5348B325EB49AA002C3ED2 /* en */,
+				1D5348B825EB49B3002C3ED2 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D5124EC25EAA8AB00A19940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D5124ED25EAA8AB00A19940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D5124EF25EAA8AB00A19940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93A66BE81395A98E2CBCA027 /* Pods-BGShop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3759TJKF4J;
+				INFOPLIST_FILE = BGShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dongyingli.test.BGShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D5124F025EAA8AB00A19940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 106DB151C163371BE6A591EB /* Pods-BGShop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3759TJKF4J;
+				INFOPLIST_FILE = BGShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dongyingli.test.BGShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1D5124F225EAA8AB00A19940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3759TJKF4J;
+				INFOPLIST_FILE = BGShopTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dongyingli.test.BGShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BGShop.app/BGShop";
+			};
+			name = Debug;
+		};
+		1D5124F325EAA8AB00A19940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3759TJKF4J;
+				INFOPLIST_FILE = BGShopTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dongyingli.test.BGShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BGShop.app/BGShop";
+			};
+			name = Release;
+		};
+		1D5124F525EAA8AB00A19940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3759TJKF4J;
+				INFOPLIST_FILE = BGShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dongyingli.test.BGShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BGShop;
+			};
+			name = Debug;
+		};
+		1D5124F625EAA8AB00A19940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3759TJKF4J;
+				INFOPLIST_FILE = BGShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dongyingli.test.BGShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BGShop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D5124BF25EAA8AA00A19940 /* Build configuration list for PBXProject "BGShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D5124EC25EAA8AB00A19940 /* Debug */,
+				1D5124ED25EAA8AB00A19940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D5124EE25EAA8AB00A19940 /* Build configuration list for PBXNativeTarget "BGShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D5124EF25EAA8AB00A19940 /* Debug */,
+				1D5124F025EAA8AB00A19940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D5124F125EAA8AB00A19940 /* Build configuration list for PBXNativeTarget "BGShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D5124F225EAA8AB00A19940 /* Debug */,
+				1D5124F325EAA8AB00A19940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D5124F425EAA8AB00A19940 /* Build configuration list for PBXNativeTarget "BGShopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D5124F525EAA8AB00A19940 /* Debug */,
+				1D5124F625EAA8AB00A19940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D5124BC25EAA8AA00A19940 /* Project object */;
+}

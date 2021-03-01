@@ -1,0 +1,30 @@
+workspace 'BGWorkspace.xcworkspace'
+platform :ios ,'10.0'
+use_frameworks!
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'BGShop' do
+ project './BGShop/BGShop.xcodeproj'
+ #核心库
+ #def core_pods
+ pod 'RxSwift', '~> 5'
+ pod 'RxCocoa', '~> 5'
+ pod 'RxDataSources'
+ 
+ pod 'Alamofire', '~> 5.0.0'
+ #end
+ 
+ #开发相关的库
+ #def dev_pods
+  pod 'SwiftLint', '0.40.3', configurations:['Debug']
+  pod 'SwiftGen', '~>6.0', configurations:['Debug']
+ #end
+ 
+#第三方库
+# def thirdparty_pods
+#pod 'Bugly'
+#pod 'mob_smssdk'
+ #end
+end
+

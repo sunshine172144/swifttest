@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  BGShop
+
+  Created by 董营利 on 2021/2/28.
+  
+*/
+"click" = "click";
+"home" = "Home";
+"service" = "Service";
+"shop" = "Shop";
+"shopCart" = "Shopcart";
+"me" = "Me";
